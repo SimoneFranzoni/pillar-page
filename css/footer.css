@@ -49,6 +49,10 @@ footer i{
     color: var(--black);
 }
 
+footer i:hover{
+    color: var(--blue);
+}
+
 footer h2{
     font-size: 30px;
     font-weight: 400;
@@ -108,5 +112,6 @@ footer .link{
     color: var(--black);
     text-decoration: none;
     margin-right: 20px;
+    cursor: pointer;
 }
 

@@ -21,6 +21,10 @@
     border: none;
 }
 
+.customsf-blue-btn:hover{
+    background-color: #2133D6;
+}
+
 /*Button "INVIA" in the footer*/
 .customsf-send-btn{
     font-size: 16px;
@@ -40,4 +44,9 @@
     border-bottom: 3px dashed #BAB8B8;
 }
 
+/*is the container div around the table */
+.customsf-overflow-auto{
+    overflow-x: auto;
+
+}
 

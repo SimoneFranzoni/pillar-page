@@ -118,6 +118,15 @@ header i{
     margin-left: 0 !important;
 }
 
+#box-links a{
+    cursor: pointer;
+}
+
+#box-links a:hover{
+    color: var(--blue);
+    transform: scale(1.5);
+}
+
 #box-logo{
     height: 20%;
 }
