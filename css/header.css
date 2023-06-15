@@ -9,7 +9,7 @@ header{
     opacity: 0.9;
     color: white;
     font-size: 14px;
-    padding: 0 50px;
+    padding: 0 5%;
 } 
 
 /* >>> NAV MENù <<< */
@@ -110,4 +110,14 @@ header i{
 
 #responsive-menu li{
     list-style: none;
+}
+
+#box-links{
+    height: 80%;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+}
+
+#box-logo{
+    height: 20%;
 }

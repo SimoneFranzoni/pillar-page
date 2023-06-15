@@ -87,42 +87,47 @@
             </div>
         </div>
 
-        <div id="responsive-menu" class="container-fluid">
-            <div class="row d-flex flex-row justify-content-between align-items-center pt-3 pb-2">
-                <div class="col-6 col-sm-4 col-lg-2">
-                    <div class="logo d-flex flex-column">
-                        <h1 href="">POSEIDON</h1>
-                        <h5>Delmonte Odyssey theme</h5>
-                    </div>      
+        <div id="responsive-menu">
+            <div class="container-fluid" id="box-logo">
+                <div class="row d-flex flex-row justify-content-between align-items-center pt-3 pb-2">
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <div class="logo d-flex flex-column">
+                            <h1 href="">POSEIDON</h1>
+                            <h5>Delmonte Odyssey theme</h5>
+                        </div>      
+                    </div>
+                    <div class="col-1">
+                        <i class="fa-solid fa-xmark" onclick="nascondiDiv()"></i>
+                    </div>
                 </div>
-                <div class="col-1">
-                    <i class="fa-solid fa-xmark" onclick="nascondiDiv()"></i>
-                </div>
-            </div > 
-            <ul class="d-flex flex-column align-items-center">
-                <li>
-                    <a href="">Landing</a>
-                </li>
-                <li>
-                    <a href="">Theme</a>
-                </li>
-                <li>
-                    <a href="">Pages</a>
-                </li>
-                <li>
-                    <a href="">Blog</a>
-                </li>
-                <li>
-                    <a href="">Risorse</a>
-                </li>
-                <li>
-                    <a href="">Email</a>
-                </li>   
-            </ul>
-            <div class="d-flex flex-row justify-content-center">
-                <div class="icon"><img src="Media/Icon/icon.png" alt=""></div>
-                <button class="customsf-blue-btn">Custom Call to Action</button>
             </div>
+            <div id="box-links" class="d-flex flex-column justify-content-around align-content-end">
+                
+                    <ul class="d-flex flex-column align-items-center justify-content-end px-0">
+                        <li>
+                            <a href="">Landing</a>
+                        </li>
+                        <li>
+                            <a href="">Theme</a>
+                        </li>
+                        <li>
+                            <a href="">Pages</a>
+                        </li>
+                        <li>
+                            <a href="">Blog</a>
+                        </li>
+                        <li>
+                            <a href="">Risorse</a>
+                        </li>
+                        <li>
+                            <a href="">Email</a>
+                        </li>   
+                    </ul>
+                    <div class="d-flex flex-row justify-content-center px-0">
+                        
+                        <button class="customsf-blue-btn">Custom Call to Action</button>
+                    </div>
+               
         </div>
     </header>
     
@@ -163,8 +168,8 @@
                         </li>
                     </ul>
                 </div>
-                
-                <div class="col-8 col-sm-10 col-lg-5 page-content">
+                <div class="col-1"></div>
+                <div class="col-10 col-lg-5" id="page-content">
                     <p id="first-paragraph">What do cross-country road trips, wedding speeches, and <span class="text-decoration-underline customsf-text-blue">social media marketing</span> have in common? Planning. I can't help you with your road trip or wedding speech, but I have a solution for planning your next social media marketing campaign — using a social media calendar!</p>
                     <section>
                         <p>Most marketers now recognize that social media is integral to an effective inbound marketing strategy. With so many social networks available to us, it's crucial to stay organized and plan for when and what you will share on these platforms.</p>
@@ -314,6 +319,7 @@
                         </div>
                     </section>  
                 </div>
+                <div class="col-1"></div>
            </div>
         </div>
     </main>
