@@ -1,0 +1,38 @@
+*{
+    font-family: 'Montserrat';
+}
+
+/*remove the padding around the container class*/
+body .container-fluid{
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* remove the space around the p element*/
+body p{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+/* progression bar at the end of the page*/
+.progression-bar-div{
+    position: sticky;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.progression-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #DFE1FE;
+}
+
+.progression-bar-inner{
+    position: relative;
+    width: 0%;
+    height: 20px;
+    padding: 0px;
+    background-color: #374BFF;
+    color: white;
+}

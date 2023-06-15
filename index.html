@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pillar Page</title>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    
+    <!-- Link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Font -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+ 
+
+    <header>
+
+        <!-- NAV -->
+        <nav class="container-fluid">
+            <div class="row d-flex flex-row justify-content-between align-items-center pt-3 pb-2">
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="logo d-flex flex-column">
+                        <h1 href="">POSEIDON</h1>
+                        <h5>Delmonte Odyssey theme</h5>
+                    </div>      
+                </div>
+                <div class="col-4 d-none d-lg-block">  
+                    <ul class="d-flex flex-row justify-content-start">
+                        <li>
+                            <a href="">Landing</a>
+                        </li>
+                        <li>
+                            <a href="">Theme</a>
+                        </li>
+                        <li>
+                            <a href="">Pages</a>
+                        </li>
+                        <li>
+                            <a href="">Blog</a>
+                        </li>
+                        <li>
+                            <a href="">Risorse</a>
+                        </li>
+                        <li>
+                            <a href="">Email</a>
+                        </li>   
+                    </ul>
+                </div>
+                <div class="col-6 d-none d-lg-flex flex-row justify-content-end align-items-center">
+                    <div class="icon"><img src="Media/Icon/icon.png" alt=""></div>
+                    <button class="customsf-blue-btn">Custom Call to Action</button>
+                </div>
+                <div class="col-1 d-lg-none">
+                    <i class="fa-solid fa-bars" onclick="mostraDiv()"></i>
+                </div>
+            </div >     
+        </nav>
+
+        <div class="container-fluid box-maintitle row d-flex align-content-end"> 
+            <div class="row d-flex">
+                <div class="col-md-4 col-lg-2">
+                </div>
+                <div class="col-12 col-md-8">
+                    <h1>Pillar Page Title</h1>
+                </div>
+            </div>
+            <div class="row d-flex align-items-start">
+                <div class="col-12 col-sm-4 col-lg-2 d-flex flex-row align-items-center">
+                    <div class="minutes-border">
+                        <div class="minutes-number">34</div>
+                    </div>
+                    <div class="">Minuti di lettura</div>
+                </div>
+                <div class="col-12 col-sm-8">
+                    <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error perferendis quod asperiores quibusdam quis molestias maxime tempora nobis veniam.</h3>
+                </div>
+            </div>
+        </div>
+
+        <div id="responsive-menu" class="container-fluid">
+            <div class="row d-flex flex-row justify-content-between align-items-center pt-3 pb-2">
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="logo d-flex flex-column">
+                        <h1 href="">POSEIDON</h1>
+                        <h5>Delmonte Odyssey theme</h5>
+                    </div>      
+                </div>
+                <div class="col-1">
+                    <i class="fa-solid fa-xmark" onclick="nascondiDiv()"></i>
+                </div>
+            </div > 
+            <ul class="d-flex flex-column align-items-center">
+                <li>
+                    <a href="">Landing</a>
+                </li>
+                <li>
+                    <a href="">Theme</a>
+                </li>
+                <li>
+                    <a href="">Pages</a>
+                </li>
+                <li>
+                    <a href="">Blog</a>
+                </li>
+                <li>
+                    <a href="">Risorse</a>
+                </li>
+                <li>
+                    <a href="">Email</a>
+                </li>   
+            </ul>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="icon"><img src="Media/Icon/icon.png" alt=""></div>
+                <button class="customsf-blue-btn">Custom Call to Action</button>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="d-none d-lg-block col-4 col-xl-3" id="sticky-bar">
+                    <b>Indice contenuto</b>
+                    <ul>
+                        <li>
+                            <a href="#section1" class="menu-link">What is a social media calendar?</a>
+                        </li>
+                        <li class="pb-3 d-none d-md-block">
+                            <a href="#section2" class="menu-link">How to create a social media calendar</a>
+                            <ol>
+                                <li>
+                                    <a href="#section3" class="menu-link">Conduct a social media audit.</a>
+                                </li>
+                                <li>
+                                    <a href="#section4" class="menu-link">Choose your social media channels and the content you'll post.</a>
+                                </li>
+                                <li>
+                                    <a href="#section5" class="menu-link">Decide what your calendar should include.</a>
+                                </li>
+                                <li>
+                                    <a href="#section6" class="menu-link">Get feedback.</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <a href="#section7" class="menu-link">Social Media Content Calendar Tools to Plan Your Messaging</a>
+                        </li>
+                        <li>
+                            <a href="#section8" class="menu-link">Section #4</a>
+                        </li>
+                        <li>
+                            <a href="#section9" class="menu-link">Section #5</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="col-8 col-sm-10 col-lg-5 page-content">
+                    <p id="first-paragraph">What do cross-country road trips, wedding speeches, and <span class="text-decoration-underline customsf-text-blue">social media marketing</span> have in common? Planning. I can't help you with your road trip or wedding speech, but I have a solution for planning your next social media marketing campaign — using a social media calendar!</p>
+                    <section>
+                        <p>Most marketers now recognize that social media is integral to an effective inbound marketing strategy. With so many social networks available to us, it's crucial to stay organized and plan for when and what you will share on these platforms.</p>
+                    </section>
+
+                    <section id="section1" class="section-link">
+                        <h2>What is a social media calendar?</h2>
+                        <p>A social media calendar is a rundown of your upcoming posts organized by date and time. A social media calendar can be a spreadsheet, digital calendar, or interactive dashboard.<br> To get the most value out of your social media calendar, it may include the following:</p>
+                        <ul>
+                            <li>The date and time a post will go live</li> 
+                            <li>The social media account or network will go live on</li>
+                            <li>Materials that will be included, such as copy, hashtags, links, and graphics</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2 id="section2" class="section-link">How to Create a Social Media Calendar</h2>
+                    
+                        <h3 id="section3" class="section-link">1. Conduct a social media audit.</h3>
+                        <p>A social media audit assesses your social media presence, accounts, and engagement so you can see what's working, what's not, and where improvements need to be made. To learn how to conduct a social media audit, click here.</p>
+                        <h3 id="section4" class="section-link">2. Choose your social media channels and the content you'll post.</h3>
+                        <p class="pb-3">After conducting a social media audit, you should comprehensively understand which channels your audience uses and the kind of content they prefer. You should use your findings to determine which social media channels you'll leverage and the content you'll post.</p>
+                        <p>For example, you may notice your audience prefers your behind-the-scenes content on Instagram but goes to Twitter to ask questions and learn more about your product. In that case, you can post fun behind-the-scenes photos and Reels on Instagram, then use Twitter to share information about your product and answer consumer questions.</p>
+                        <h3 id="section5" class="section-link">3. Decide what your calendar should include.</h3>
+                        <p>Your social media calendar should be tailored to your business and goals, so you'll need to include information in our calendar that will make your desired results.</p>
+                        <p class="pb-3">To start, your calendar should include the following:</p>
+                        <ul>
+                            <li>The platforms you're using</li>
+                            <li>The day and the time your posts will be published</li>
+                            <li>Links, graphics, videos, and copy</li>
+                        </ul>
+                        <p class="pb-3">As you become more adept with your calendar, you may want to expand it to include the following:</p>
+                        <ul>
+                            <li>Platform-specific materials include Reels, TikTok LIVE, polls, shoppable posts, etc.</li>
+                            <li>Geo-targeting</li>
+                            <li>The associated or vertical campaigns, such as product launches and contests</li>
+                        </ul>
+                        <h3 id="section6" class="section-link">4. Get feedback.</h3>
+                        <p>Once your calendar is complete, share it with your team and stakeholders to get their feedback to ensure it meets everyone's needs. As you use the calendar, you may find ways to improve or expand upon it; you'll need to be open to ongoing feedback.</p>
+                    </section>
+
+                    <section id="section7" class="section-link">
+                        <h2>Social Media Content Calendar Tools to Plan Your Messaging</h2>
+                        <p>Marketers might already use Excel for different types of reports and data analysis, but this multifaceted tool is also perfect for social media content calendar organization. Excel can be customized according to the priorities and metrics your team is focused on, so it's a great option for planning.<br>The good news? We've already done the heavy lifting by creating a free, downloadable <span class="text-decoration-underline customsf-text-blue">social media content calendar template</span> using <span class="text-decoration-underline customsf-text-blue">Microsoft Excel.</span> Marketers can easily use this template to plan individual social media posts— monthly or annually — while keeping an eye on more significant picture events, holidays, publications, and partnerships.</p>
+                    </section>
+
+                    <div class="section box-acquablue">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    <span>&#128161;</span><i><b>Tip:</b> usa emoji in per alcuni contenuti, poche ma buone</i>
+<!--
+                    <section id="section8" class="section-link">
+                        <h3>Module Table Data</h3>
+                        <table id="table">
+                            <tr>
+                                <th>Content #1</th>
+                                <th>Content #2</th>
+                                <th>Content #3</th>
+                                <th>Content #4</th>
+                            </tr>
+                            <tr>
+                                <td>Content #1</td>
+                                <td>Content #2</td>
+                                <td>Content #3</td>
+                                <td>Content #4</td>
+                            </tr>
+                            <tr>
+                                <td>Content #1</td>
+                                <td>Content #2</td>
+                                <td>Content #3</td>
+                                <td>Content #4</td>
+                            </tr>
+                            <tr>
+                                <td>Content #1</td>
+                                <td>Content #2</td>
+                                <td>Content #3</td>
+                                <td>Content #4</td>
+                            </tr>
+                            <tr>
+                                <td>Content #1</td>
+                                <td>Content #2</td>
+                                <td>Content #3</td>
+                                <td>Content #4</td>
+                            </tr>
+                        </table>
+                    </section>  
+-->
+                    <section class="d-flex flex-row">
+                        <div class="quote-line"></div>
+                        <div class="quote">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</div>
+                    </section>
+
+                    <section id="section9" class="section-link">
+                        <h1>Big section title content</h1>
+                        <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed purus est, sagittis non est nec, maximus dictum velit. Cras eu quam velit. Nulla facilisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus tristique cursus augue vitae eleifend. Suspendisse leo quam, convallis ornare est vitae, luctus elementum purus. Mauris tincidunt sit amet massa sed semper. Sed molestie ornare risus, sed dictum leo dictum non.</p>
+                    </section>
+
+                    <section>
+                        <h3>Marketing Tips</h3>
+                        <div class="container-fluid pt-2">
+                            <div class="row">
+                                <div class="col-6 d-flex flex-column box-vertical-article">
+                                    <div class="box-img"><img src="Media/box-1.jpg" alt=""></div>
+                                    <h4 class="pt-3">Sed viverra nisl ac ex euismod</h4>
+                                    <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra nisl ac ex euismod, sit amet porta quam consectetur.</p>
+                                    <a href="" class="pt-4">Leggi l'articolo  <i class="fa-solid fa-arrow-right px-1"></i></a>
+                                </div>
+                                <div class="col-6 d-flex flex-column box-vertical-article">
+                                    <div class="box-img"><img src="Media/box-2.png" alt=""></div>
+                                    <h4 class="pt-3">Sed viverra nisl ac ex euismod</h4>
+                                    <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra nisl ac ex euismod, sit amet porta quam consectetur.</p>
+                                    <a href="" class="pt-4">Leggi l'articolo  <i class="fa-solid fa-arrow-right px-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section>
+                        <h3>Risorse da non perdere</h3>
+                        <div class="box-orizontal-article">
+                            <div class="left-section">
+                                <img src="Media/box-3.jpg" alt="">
+                            </div>
+                            <div class="right-section">
+                                <div class="upper-section">
+                                    <h4>Sed viverra nisl ac ex euismod</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra nisl ac ex euismod, sit amet porta quam consectetur. </p>
+                                </div>
+                                <div class="lower-section">
+                                    <a href="">Discover More</a>
+                                    <a href=""><i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-orizontal-article mt-4">
+                            <div class="left-section">
+                                <img src="Media/box-4.jpg" alt="">
+                            </div>
+                            <div class="right-section">
+                                <div class="upper-section">
+                                    <h4>Sed viverra nisl ac ex euismod</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra nisl ac ex euismod, sit amet porta quam consectetur. </p>
+                                </div>
+                                <div class="lower-section">
+                                    <a href="">Discover More</a>
+                                    <a href=""><i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>  
+                </div>
+           </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6 d-flex flex-row">
+                    <ul>
+                        <li>Landing Pages</li>
+                        <li>
+                            <a href="">Lp Demo</a>
+                        </li>
+                        <li>
+                            <a href="">Event Page</a>
+                        </li>
+                        <li>
+                            <a href="">Lp Prodotto</a>
+                        </li>
+                        <li>
+                            <a href="">Gated Simple</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>Resources</li>
+                        <li>
+                            <a href="">Listing Risorse</a>
+                        </li>
+                        <li>
+                            <a href="">Ebook Digital</a>
+                        </li>
+                        <li>
+                            <a href="">Pillar Extended</a>
+                        </li>
+                        <li>
+                            <a href="">Webinar Page</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>Blog / Email</li>
+                        <li>
+                            <a href="">Blog Home</a>
+                        </li>
+                        <li>
+                            <a href="">Listing Tag</a>
+                        </li>
+                        <li>
+                            <a href="">Post single</a>
+                        </li>
+                        <li>
+                            <a href="">Email Global Modules</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-12 col-md-4 pt-4 pt-md-0 ">
+                    <h1>Poseidon theme <br> by Delmonte</h1>
+                    <div class="icons d-flex flex-row">
+                        <a href="">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href=""> 
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row customsf-dashed-border mt-4 pb-5">
+                <div class="col-12 col-md-6 pt-4 pt-md-0 ">
+                    <h2>Growth solution</h2>
+                    <h5 class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id tempor lacus, tincidunt tristique enim.</h5>
+                    <button class="customsf-blue-btn mt-2">Discover More Tools</button>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-12 col-md-4  pt-4 pt-md-0 ">
+                    <h3>Iscriviti alla nostra newsletter</h3>
+                    <div class="formaction">
+                        <input type="text" placeholder="Placeholder">
+                        <a class="customsf-send-btn mx-3">Invia</a>
+                    </div>
+                    <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id tempor lacus, tincidunt tristique enim. Integer sit amet quam pretium, malesuada sem nec, ornare nisl</p>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-6">
+                    <div class="credits">© 2022 Del Monte & Partner comunicazione S.r.L. Odyssey Theme</div>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-4 d-flex flex-column flex-md-row">
+                    <a class="link">Privacy Policy</a>
+                    <a class="link">Cookie Policy</a>
+                </div>
+            </div>
+        </div>        
+    </footer>
+
+    <div class="progression-bar-div">
+        <div class="progression-bar">
+            <div class="progression-bar-inner"><!-- 0% --></div>
+        </div>
+    </div>
+
+    <!-- Script JS -->
+    <script src="js/main.js"></script>   
+</body>
+</html>

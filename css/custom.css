@@ -1,0 +1,43 @@
+:root {
+    --aquablue: #4DFFDF;
+    --blue: #374BFF;
+    --black: #201C1C;
+    --main_bg_color: #F8F8F8;
+    --sticky_bar_link_color: #7A8A97;
+    --footer_bg_color: #EAECEE;
+}
+
+/*scrive il testo in blu*/
+.customsf-text-blue{
+    color: var(--blue);
+}
+
+/*Blue button*/
+.customsf-blue-btn{
+    color: white;
+    background-color: var(--blue);
+    border-radius: 8px;
+    padding: 8px 20px;
+    border: none;
+}
+
+/*Button "INVIA" in the footer*/
+.customsf-send-btn{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.13em;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #2133D6;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/*dashed border in the footer*/
+.customsf-dashed-border{
+    border-bottom: 3px dashed #BAB8B8;
+}
+
+
