@@ -95,6 +95,7 @@ main{
     margin: 20px 0;
 }
 
+/*table*/
 #table{
     border-radius: 15px;
     width: 1000px;
@@ -234,6 +235,7 @@ main{
     text-decoration: none;
 }
 
+/* Media */
 @media only screen and (max-width: 992px) {
     main{
         overflow-x: hidden;

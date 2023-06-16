@@ -61,6 +61,7 @@
                     <button class="customsf-blue-btn">Custom Call to Action</button>
                 </div>
                 <div class="col-1 d-lg-none">
+                    <!-- button to open the mobile menù -->
                     <i class="fa-solid fa-bars" onclick="mostraDiv()"></i>
                 </div>
             </div >     
@@ -87,6 +88,7 @@
             </div>
         </div>
 
+        <!-- Mobile menù -->
         <div id="responsive-menu">
             <div class="container-fluid" id="box-logo">
                 <div class="row d-flex flex-row justify-content-between align-items-center pt-3 pb-2">
@@ -97,42 +99,44 @@
                         </div>      
                     </div>
                     <div class="col-1">
+                        <!-- button to close the mobile menù -->
                         <i class="fa-solid fa-xmark" onclick="nascondiDiv()"></i>
                     </div>
                 </div>
             </div>
             <div id="box-links" class="d-flex flex-column justify-content-around align-content-end">
-                    <ul class="d-flex flex-column align-items-center justify-content-end px-0">
-                        <li>
-                            <a href="">Landing</a>
-                        </li>
-                        <li>
-                            <a href="">Theme</a>
-                        </li>
-                        <li>
-                            <a href="">Pages</a>
-                        </li>
-                        <li>
-                            <a href="">Blog</a>
-                        </li>
-                        <li>
-                            <a href="">Risorse</a>
-                        </li>
-                        <li>
-                            <a href="">Email</a>
-                        </li>   
-                    </ul>
-                    <div class="d-flex flex-row justify-content-center px-0">
-                        
-                        <button class="customsf-blue-btn">Custom Call to Action</button>
-                    </div>
-               
+                <ul class="d-flex flex-column align-items-center justify-content-end px-0">
+                    <li>
+                        <a href="">Landing</a>
+                    </li>
+                    <li>
+                        <a href="">Theme</a>
+                    </li>
+                    <li>
+                        <a href="">Pages</a>
+                    </li>
+                    <li>
+                        <a href="">Blog</a>
+                    </li>
+                    <li>
+                        <a href="">Risorse</a>
+                    </li>
+                    <li>
+                        <a href="">Email</a>
+                    </li>   
+                </ul>
+                <div class="d-flex flex-row justify-content-center px-0">    
+                    <button class="customsf-blue-btn">Custom Call to Action</button>
+                </div>
+            </div>        
         </div>
     </header>
     
+    <!-- MAIN -->
     <main>
         <div class="container-fluid">
             <div class="row">
+                <!-- sticky bar on the left of the page -->
                 <div class="d-none d-lg-block col-4 col-xl-3" id="sticky-bar">
                     <b>Indice contenuto</b>
                     <ul>
@@ -168,6 +172,7 @@
                     </ul>
                 </div>
                 <div class="col-1"></div>
+                <!-- page content at the right of the page -->
                 <div class="col-10 col-lg-5" id="page-content">
                     <p id="first-paragraph">What do cross-country road trips, wedding speeches, and <span class="text-decoration-underline customsf-text-blue">social media marketing</span> have in common? Planning. I can't help you with your road trip or wedding speech, but I have a solution for planning your next social media marketing campaign — using a social media calendar!</p>
                     <section>
@@ -262,7 +267,7 @@
                     </section>
 
                     <section id="section9" class="section-link">
-                        <h1>Big section title content</h1>
+                        <div class="customsf-big-title">Big section title content</div>
                         <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed purus est, sagittis non est nec, maximus dictum velit. Cras eu quam velit. Nulla facilisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus tristique cursus augue vitae eleifend. Suspendisse leo quam, convallis ornare est vitae, luctus elementum purus. Mauris tincidunt sit amet massa sed semper. Sed molestie ornare risus, sed dictum leo dictum non.</p>
                     </section>
 
@@ -325,6 +330,7 @@
         </div>
     </main>
 
+    <!-- FOOTER -->
     <footer>
         <div class="container-fluid">
             <div class="row">
@@ -423,6 +429,7 @@
         </div>        
     </footer>
 
+    <!-- Progression bar at the bottom of the page -->
     <div class="progression-bar-div">
         <div class="progression-bar">
             <div class="progression-bar-inner"><!-- 0% --></div>
